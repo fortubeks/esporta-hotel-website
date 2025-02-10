@@ -87,44 +87,44 @@
 </section>
 <!-- footer begin -->
 <footer class="text-light section-dark">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-12">
-                        <div class="d-lg-flex align-items-center justify-content-between text-center">
-                            <div>
-                                <h3 class="fs-20">Our Hotels</h3>
-                                <a href="{{route('hotel.index','ikeja')}}">Ikeja</a> . <a href="{{route('hotel.index','magodo')}}">Magodo</a> . 
-                                <a href="{{route('hotel.index','agidingbi')}}">Agidingbi</a> . <a href="{{route('hotel.index','lekki')}}">Lekki</a> . 
-                                <a href="{{route('hotel.index','ondo')}}">Ondo</a><br>
-                                Nigeria
-                            </div>
-                            <div>
-                                <a href="{{route('home')}}"><img src="almaris/images/logo.png" class="w-200px" alt=""></a><br>
-                                <div class="social-icons mb-sm-30 mt-4">
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="https://instagram.com/esportahotels/"><i class="fa-brands fa-instagram"></i></a>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                                </div>
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-md-12">
+                <div class="d-lg-flex align-items-center justify-content-between text-center">
+                    <div>
+                        <h3 class="fs-20">Our Hotels</h3>
+                        <a href="{{route('hotel.index','ikeja')}}">Ikeja</a> . <a href="{{route('hotel.index','magodo')}}">Magodo</a> .
+                        <a href="{{route('hotel.index','agidingbi')}}">Agidingbi</a> . <a href="{{route('hotel.index','lekki')}}">Lekki</a> .
+                        <a href="{{route('hotel.index','ondo')}}">Ondo</a><br>
+                        Nigeria
+                    </div>
+                    <div>
+                        <a href="{{route('home')}}"><img src="almaris/images/logo.png" class="w-200px" alt=""></a><br>
+                        <div class="social-icons mb-sm-30 mt-4">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://instagram.com/esportahotels/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
 
-                            </div>
-                            <div>
-                                <h3 class="fs-20">Contact Us</h3>
-                                T. +234 706 612 2407<br>
-                                M. hello@esportahotels.com
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
-            </div>
-            <div class="subfooter">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            Esporta Hotels & Resorts
-                        </div>
+                    </div>
+                    <div>
+                        <h3 class="fs-20">Contact Us</h3>
+                        T. +234 817 461 9099<br>
+                        M. hello@esportahotels.com
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- footer close -->
+        </div>
+    </div>
+    <div class="subfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    Esporta Hotels & Resorts
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer close -->

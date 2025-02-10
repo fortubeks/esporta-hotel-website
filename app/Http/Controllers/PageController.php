@@ -6,103 +6,66 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function gallery(){
+    public function gallery()
+    {
         return view('gallery');
     }
 
-    public function reviews(){
+    public function reviews()
+    {
         return view('reviews');
     }
 
-    public function cuisines(){
+    public function cuisines()
+    {
         return view('cuisines');
     }
 
-    public function hotelIndex($_hotel){
+    public function hotelIndex($_hotel)
+    {
         //get the hotel and navigate to the hotel.idex page with the hotel name
-        $hotel = [
-            'id' => $_hotel,
-            'location' => ucwords($_hotel,","),
-            'address' => $_hotel.', Lagos, Nigeria',
-            'phone' => '+234 706 612 2407',
-            'email' => $_hotel.'@esportahotels.com'
-        ];
-        
-        return view('hotels.index')->with('hotel',$hotel);
+        $hotel = getHotelPropertyInfomation($_hotel);
+        $reviews = getHotelReviews($_hotel);
+        return view('hotels.index')->with(compact('hotel', 'reviews'));
     }
 
-    public function hotelRooms($_hotel){
-        $hotel = [
-            'id' => $_hotel,
-            'location' => ucwords($_hotel,","),
-            'address' => $_hotel.', Lagos, Nigeria',
-            'phone' => '+234 706 612 2407',
-            'email' => $_hotel.'@esportahotels.com'
-        ];
-        $categories = [
-            ['name' => 'Standard', 'id' => 'ikeja-standard',
-            'description' => 'Immerse yourself in the epitome of luxury at Esporta, your premier hotel destination in Nigeria. Our hotel redefines elegance and comfort, offering an exquisite escape for discerning travelers.'],
-            ['name' => 'Deluxe', 'id' => 'ikeja-deluxe',
-            'description' => 'Immerse yourself in the epitome of luxury at Esporta, your premier hotel destination in Nigeria. Our hotel redefines elegance and comfort, offering an exquisite escape for discerning travelers.']
-        ];
-        
-        return view('hotels.rooms.index')->with(compact('hotel','categories'));
+    public function hotelRooms($_hotel)
+    {
+        $hotel = getHotelPropertyInfomation($_hotel);
+        $categories = getHotelRoomCategories($_hotel);
+
+        return view('hotels.rooms.index')->with(compact('hotel', 'categories'));
     }
 
-    public function hotelGallery($_hotel){
+    public function hotelGallery($_hotel)
+    {
         //get the hotel and navigate to the hotel.idex page with the hotel name
-        $hotel = [
-            'id' => $_hotel,
-            'location' => ucwords($_hotel,","),
-            'address' => $_hotel.', Lagos, Nigeria',
-            'phone' => '+234 706 612 2407',
-            'email' => $_hotel.'@esportahotels.com'
-        ];
-        
-        return view('hotels.gallery')->with('hotel',$hotel);
+        $hotel = getHotelPropertyInfomation($_hotel);
+
+        return view('hotels.gallery')->with('hotel', $hotel);
     }
 
-    public function hotelReviews($_hotel){
+    public function hotelReviews($_hotel)
+    {
         //get the hotel and navigate to the hotel.idex page with the hotel name
-        $hotel = [
-            'id' => $_hotel,
-            'location' => ucwords($_hotel,","),
-            'address' => $_hotel.', Lagos, Nigeria',
-            'phone' => '+234 706 612 2407',
-            'email' => $_hotel.'@esportahotels.com'
-        ];
-        $reviews = [
-            ['customer_name' => 'James Ikegwuru',
-            'body' => 'Immerse yourself in the epitome of luxury at Esporta, your premier hotel destination in Nigeria. Our hotel redefines elegance and comfort, offering an exquisite escape for discerning travelers.'],
-            ['customer_name' => 'Rita Iloge',
-            'body' => 'Immerse yourself in the epitome of luxury at Esporta, your premier hotel destination in Nigeria. Our hotel redefines elegance and comfort, offering an exquisite escape for discerning travelers.']
-        ];
-        
-        return view('hotels.reviews')->with(compact('hotel','reviews'));
+        $hotel = getHotelPropertyInfomation($_hotel);
+        $reviews = getHotelReviews($_hotel);
+
+        return view('hotels.reviews')->with(compact('hotel', 'reviews'));
     }
 
-    public function hotelContact($_hotel){
+    public function hotelContact($_hotel)
+    {
         //get the hotel and navigate to the hotel.idex page with the hotel name
-        $hotel = [
-            'id' => $_hotel,
-            'location' => ucwords($_hotel,","),
-            'address' => $_hotel.', Lagos, Nigeria',
-            'phone' => '+234 706 612 2407',
-            'email' => $_hotel.'@esportahotels.com'
-        ];
-        
-        return view('hotels.index')->with('hotel',$hotel);
+        $hotel = getHotelPropertyInfomation($_hotel);
+
+        return view('hotels.index')->with('hotel', $hotel);
     }
 
-    public function hotelRoomCategory($_hotel, $room){
+    public function hotelRoomCategory($_hotel, $room)
+    {
         //get the hotel and navigate to the hotel.idex page with the hotel name
-        $hotel = [
-            'id' => $_hotel,
-            'location' => ucwords($_hotel,","),
-            'address' => $_hotel.', Lagos, Nigeria',
-            'phone' => '+234 706 612 2407',
-            'email' => $_hotel.'@esportahotels.com'
-        ];
-        return view('hotels.rooms.show')->with(compact('hotel','room'));
+        $hotel = getHotelPropertyInfomation($_hotel);
+        return view('hotels.rooms.show')->with(compact('hotel', 'room'));
     }
 }

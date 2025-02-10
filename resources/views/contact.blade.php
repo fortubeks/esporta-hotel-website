@@ -3,9 +3,9 @@
 
 <!-- content begin -->
 <div class="no-bottom no-top" id="content">
-<div id="top"></div>
+    <div id="top"></div>
     <section id="subheader" class="relative jarallax text-light">
-        <img src="almaris/images/background/3.webp" class="jarallax-img" alt="">
+        <img src="almaris/images/background/reception.jpg" class="jarallax-img" alt="">
         <div class="container relative z-index-1000">
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center">
@@ -31,7 +31,7 @@
                     <div class="text-center">
                         <h3 class="mb-4">Write a Message</h3>
                     </div>
-                    
+
                     <form name="contactForm" id="contact_form" class="position-relative z1000" method="post" action="#">
                         <div class="row gx-4">
                             <div class="col-lg-6 col-md-6 mb10">
@@ -47,15 +47,15 @@
                                     <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" required>
                                 </div>
                             </div>
-                            
+
                             <div class="col-lg-6 col-md-6">
                                 <div class="field-set mb20">
                                     <textarea name="message" id="message" class="form-control" placeholder="Your Message" required></textarea>
                                 </div>
                             </div>
                         </div>
-                            
-                        
+
+
                         <div class="text-center">
                             <div class="g-recaptcha d-inline-block " data-sitekey="copy-your-sitekey-here"></div>
 
@@ -73,10 +73,10 @@
                     </form>
 
                 </div>
-                
+
             </div>
         </div>
-    </section>            
+    </section>
 
 </div>
 <!-- content close -->
@@ -86,6 +86,6 @@
 <script src="almaris/js/recaptcha.js"></script>
 <script>
     window.addEventListener('load', function() {
-        
+
     });
 </script>
