@@ -122,7 +122,7 @@
                     <div class="relative wow fadeInUp" data-wow-delay=".3s">
                         <div class="abs top-0 w-100">
                             <div class="shape-mask-1 jarallax">
-                                <img src="almaris/images/misc/home1.jpg" class="jarallax-img" alt="">
+                                <img src="{{env('APP_URL')}}/almaris/images/misc/home1.jpg" class="jarallax-img" alt="">
                             </div>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                     <div class="relative wow fadeInUp" data-wow-delay=".3s">
                         <div class="abs top-0 w-100">
                             <div class="shape-mask-1 jarallax">
-                                <img src="almaris/images/background/room.jpg" class="jarallax-img" alt="">
+                                <img src="{{env('APP_URL')}}/almaris/images/background/room.jpg" class="jarallax-img" alt="">
                             </div>
                         </div>
                     </div>
@@ -180,7 +180,7 @@
                             <!-- room begin -->
                             <div class="item">
                                 <div class="hover relative text-light text-center wow fadeInUp" data-wow-delay=".3s">
-                                    <img src="almaris/images/home/ikeja.jpg" class="img-fluid" alt="">
+                                    <img src="{{env('APP_URL')}}/almaris/images/home/ikeja.jpg" class="img-fluid" alt="">
                                     <div class="abs hover-op-1 z-4 hover-mt-40 abs-centered">
                                         <div class="fs-14"></div>
                                         <h3 class="fs-40 lh-1 mb-4"></h3>
@@ -206,7 +206,7 @@
                             <!-- room begin -->
                             <div class="item">
                                 <div class="hover relative text-light text-center wow fadeInUp" data-wow-delay=".4s">
-                                    <img src="almaris/images/home/magodo.jpg" class="img-fluid" alt="">
+                                    <img src="{{env('APP_URL')}}/almaris/images/home/magodo.jpg" class="img-fluid" alt="">
                                     <div class="abs hover-op-1 z-4 hover-mt-40 abs-centered">
                                         <div class="fs-14"></div>
                                         <h3 class="fs-40 lh-1 mb-4"></h3>
@@ -233,7 +233,7 @@
                             <!-- room begin -->
                             <div class="item">
                                 <div class="hover relative text-light text-center wow fadeInUp" data-wow-delay=".5s">
-                                    <img src="almaris/images/home/agidinbi.jpg" class="img-fluid" alt="">
+                                    <img src="{{env('APP_URL')}}/almaris/images/home/agidinbi.jpg" class="img-fluid" alt="">
                                     <div class="abs hover-op-1 z-4 hover-mt-40 abs-centered">
                                         <div class="fs-14"></div>
                                         <h3 class="fs-40 lh-1 mb-4"></h3>
@@ -260,7 +260,7 @@
                             <!-- room begin -->
                             <div class="item">
                                 <div class="hover relative text-light text-center wow fadeInUp" data-wow-delay=".7s">
-                                    <img src="almaris/images/home/lekki.jpg" class="img-fluid" alt="">
+                                    <img src="{{env('APP_URL')}}/almaris/images/home/lekki.jpg" class="img-fluid" alt="">
                                     <div class="abs hover-op-1 z-4 hover-mt-40 abs-centered">
                                         <div class="fs-14"></div>
                                         <h3 class="fs-40 lh-1 mb-4"></h3>
@@ -286,7 +286,7 @@
                             <!-- room begin -->
                             <div class="item">
                                 <div class="hover relative text-light text-center wow fadeInUp" data-wow-delay=".7s">
-                                    <img src="almaris/images/home/ondo.jpg" class="img-fluid" alt="">
+                                    <img src="{{env('APP_URL')}}/almaris/images/home/ondo.jpg" class="img-fluid" alt="">
                                     <div class="abs hover-op-1 z-4 hover-mt-40 abs-centered">
                                         <div class="fs-14"></div>
                                         <h3 class="fs-40 lh-1 mb-4"></h3>
@@ -329,21 +329,21 @@
                     <h4>Dining & Lounge</h4>
                     <p>Enjoy exquisite meals and refreshing drinks in a relaxed atmosphere, perfect for unwinding after a long day or celebrating a special occasion.</p>
 
-                    <img src="almaris/images/gallery/food-1.jpg" class="w-100" alt="">
+                    <img src="{{env('APP_URL')}}/almaris/images/gallery/food-1.jpg" class="w-100" alt="">
                 </div>
 
                 <div class="col-lg-4 wow fadeInRight" data-wow-delay=".2s">
                     <h4>Fitness & Recreation</h4>
                     <p>Stay active at our state-of-the-art gym or take a dip in the pool, offering a perfect balance of fitness and relaxation for all guests.</p>
 
-                    <img src="almaris/images/gallery/outdoor3.jpg" class="w-100" alt="">
+                    <img src="{{env('APP_URL')}}/almaris/images/gallery/outdoor3.jpg" class="w-100" alt="">
                 </div>
 
                 <div class="col-lg-4 wow fadeInRight" data-wow-delay=".6s">
                     <h4>Meetings & Events</h4>
                     <p>Host your next meeting or event in our modern, fully-equipped spaces, designed to accommodate any occasion with style and efficiency.</p>
 
-                    <img src="almaris/images-beach-resort/misc/home-meetings.webp" class="w-100" alt="">
+                    <img src="{{env('APP_URL')}}/almaris/images-beach-resort/misc/home-meetings.webp" class="w-100" alt="">
                 </div>
 
 
@@ -360,13 +360,13 @@
 
                         <div class="col-md-6" style="background-size: cover; background-repeat: no-repeat;">
                             <div class="relative" style="background-size: cover; background-repeat: no-repeat;">
-                                <img src="almaris/images-beach-resort/misc/home-food-1.jpg" class="w-100 rounded02 wow fadeInUp animated" alt="" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                <img src="{{env('APP_URL')}}/almaris/images-beach-resort/misc/home-food-1.jpg" class="w-100 rounded02 wow fadeInUp animated" alt="" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                             </div>
                         </div>
 
                         <div class="col-md-6" style="background-size: cover; background-repeat: no-repeat;">
                             <div class="relative" style="background-size: cover; background-repeat: no-repeat;">
-                                <img src="almaris/images-beach-resort/misc/home-food-2.jpg" class="w-100 rounded02 wow fadeInUp animated" alt="" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                <img src="{{env('APP_URL')}}/almaris/images-beach-resort/misc/home-food-2.jpg" class="w-100 rounded02 wow fadeInUp animated" alt="" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                             </div>
                         </div>
                     </div>
@@ -463,10 +463,10 @@
                     <div class="relative">
                         <div class="row g-3 align-items-center">
                             <div class="col-6 wow fadeInUp" data-wow-delay=".2s">
-                                <img src="almaris/images-beach-resort/misc/home-food-3.jpg" class="img-fluid" alt="">
+                                <img src="{{env('APP_URL')}}/almaris/images-beach-resort/misc/home-food-3.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="col-6 wow fadeInUp" data-wow-delay=".4s">
-                                <img src="almaris/images-beach-resort/misc/home-food-4.jpg" class="img-fluid" alt="">
+                                <img src="{{env('APP_URL')}}/almaris/images-beach-resort/misc/home-food-4.jpg" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -483,7 +483,7 @@
                     <div class="player wow scaleIn"><span>Play</span></div>
                 </div>
                 <div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
-                <img src="almaris/images-beach-resort/background/two.jpg" class="img-fluid" alt="">
+                <img src="{{env('APP_URL')}}/almaris/images-beach-resort/background/two.jpg" class="img-fluid" alt="">
             </div>
         </a>
     </section>
