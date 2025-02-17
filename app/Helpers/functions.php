@@ -77,7 +77,7 @@ function getHotelPropertyInfomation($_hotel)
                 'location' => ucwords($_hotel, ","),
                 'address' => '32 Ondo- Ife Rd Beside Magodo Brooks Estate, Ondo, Nigeria',
                 'phone' => '+234 704 003 0521',
-                'whatsapp' => '+234 704 003 0521 ',
+                'whatsapp' => '+234 704 003 0521',
                 'email' => $_hotel . '@esportahotels.com'
             ];
             break;
