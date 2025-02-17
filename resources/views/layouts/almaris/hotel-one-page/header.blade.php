@@ -15,7 +15,7 @@
                         <div class="social-icons">
                             <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
                             <a href="#"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                            <a href="https://instagram.com/esportahotels"><i class="fa-brands fa-instagram fa-lg"></i></a>
                         </div>
                     </div>
                 </div>
