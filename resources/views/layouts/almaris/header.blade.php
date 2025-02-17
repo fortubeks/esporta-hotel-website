@@ -136,7 +136,7 @@
                                     </li>
                                 </ul>
                             </li> -->
-                            <li><a href="{{route('cuisines')}}">Our Cusines</a></li>
+                            <li><a href="{{route('cuisines')}}">Our Cuisines</a></li>
                             <li><a href="{{route('gallery')}}">Our Gallery</a></li>
                             <!-- <li><a class="menu-item" href="#">Pages</a>
                                 <ul>

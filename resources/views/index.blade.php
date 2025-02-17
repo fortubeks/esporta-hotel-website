@@ -49,7 +49,7 @@
 
     <div id="top"></div>
 
-    <section class="no-top no-bottom text-light jarallax relative vertical-center" data-video-src="mp4:almaris/video/one.mp4">
+    <section class="no-top no-bottom text-light jarallax relative vertical-center" data-video-src="mp4:almaris/video/home-video.mp4">
         <div class="container relative z-2">
             <div class="row g-4">
                 <div class="col-lg-12 text-center">
@@ -440,7 +440,7 @@
                     <div class="row g-4">
                         <div class="col-lg-6 wow fadeInRight" data-wow-delay=".2s">
                             <div class="relative">
-                                <a href="vehicles.html">
+                                <a href="#">
                                     <i class="bg-color text-light p-3 fs-48 mb-4 icofont-fast-food"></i>
                                     <h4>Esporta Express</h4>
                                 </a>
@@ -449,7 +449,7 @@
                         </div>
                         <div class="col-lg-6 wow fadeInRight" data-wow-delay=".4s">
                             <div class="relative">
-                                <a href="contact.html">
+                                <a href="#">
                                     <i class="bg-color text-light p-3 fs-48 mb-4 icofont-fast-food"></i>
                                     <h4>Esporta Buka </h4>
                                 </a>

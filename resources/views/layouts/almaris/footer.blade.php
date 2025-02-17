@@ -110,8 +110,8 @@
                     </div>
                     <div>
                         <h3 class="fs-20">Contact Us</h3>
-                        T. +234 817 461 9099<br>
-                        M. hello@esportahotels.com
+                        <i class="text-light p-3 fs-12 icofont-phone"></i> +234 817 461 9099<br>
+                        <i class="text-light p-3 fs-12 icofont-email"></i> hello@esportahotels.com
                     </div>
                 </div>
             </div>
