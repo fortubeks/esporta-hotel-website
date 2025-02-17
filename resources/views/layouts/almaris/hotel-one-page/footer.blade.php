@@ -110,8 +110,8 @@
                     </div>
                     <div>
                         <h3 class="fs-20">Contact Us</h3>
-                        T. {{$hotel['phone']}}<br>
-                        E. hello@esportahotels.com
+                        <i class="text-light p-3 fs-12 icofont-phone"> {{$hotel['phone']}}<br>
+                            <i class="text-light p-3 fs-12 icofont-email"> hello@esportahotels.com
                     </div>
                 </div>
             </div>
