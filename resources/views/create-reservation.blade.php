@@ -67,7 +67,7 @@
                                     <input type="hidden" name="checkout_date" id="checkout_date" value="{{$checkout_date ?? ''}}"> -->
                                     <h4>Choose Location</h4>
                                     <div class="row">
-                                        <div class="col-md-6 mb-3">
+                                        <div class="col-md-12 mb-3">
                                             <label for="validationCustom01">Location</label>
                                             <select class="form-control" name="location" required>
                                                 <option value="esporta">--Select Location--</option>
@@ -77,10 +77,6 @@
                                                 <option value="lekki" @if($location=='lekki' ) selected @endif>Lekki, Lagos</option>
                                                 <option value="ondo" @if($location=='ondo' ) selected @endif>Ondo</option>
                                             </select>
-                                        </div>
-                                        <div class="col-md-6 mb-3">
-                                            <label for="validationCustom02">Check Out</label>
-                                            <input type="date" name="checkout_date" class="form-control" value="{{$checkout_date ?? ''}}" required>
                                         </div>
                                     </div>
 
