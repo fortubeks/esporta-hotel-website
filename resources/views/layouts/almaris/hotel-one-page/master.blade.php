@@ -76,7 +76,7 @@
 
     <!-- Floating button -->
     <div class="floating-button">
-        <a aria-label="Chat on WhatsApp" href="https://wa.me/+2348174619099"> <img alt="Chat on WhatsApp" src="{{url('almaris/images/misc/WhatsAppButtonWhiteSmall.png')}}" />
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/2348174619099"> <img alt="Chat on WhatsApp" src="{{url('almaris/images/misc/WhatsAppButtonWhiteSmall.png')}}" />
     </div>
 
     <!-- Javascript Files

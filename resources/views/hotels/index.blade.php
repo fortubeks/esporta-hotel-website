@@ -113,45 +113,47 @@
             <div class="row justify-content-center" style="background-size: cover; background-repeat: no-repeat;">
                 <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
                     <div class="bg-dark text-light padding30 px-5" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="row g-4 align-items-center" style="background-size: cover; background-repeat: no-repeat;">
-                            <div class="col-lg-9" style="background-size: cover; background-repeat: no-repeat;">
-                                <div class="row g-4 align-items-center" style="background-size: cover; background-repeat: no-repeat;">
-                                    <div class="col-md-3 text-lg-start text-center" style="background-size: cover; background-repeat: no-repeat;">
-                                        <h4 class="mb-0">Reservation</h4>
-                                    </div>
-
-                                    <div class="col-md-3" style="background-size: cover; background-repeat: no-repeat;">
-                                        <div class="text-center " style="background-size: cover; background-repeat: no-repeat;">
-                                            <h6 class="mb-1">Choose Date</h6>
-                                            <input type="text" id="date-picker" class="form-control no-border no-bg bg-focus-color text-white fs-20 text-right text-center" name="date" value="">
+                        <form id="reservationForm" method="get" action="{{route('reservation.create')}}">
+                            <div class="row g-4 align-items-center" style="background-size: cover; background-repeat: no-repeat;">
+                                <div class="col-lg-9" style="background-size: cover; background-repeat: no-repeat;">
+                                    <div class="row g-4 align-items-center" style="background-size: cover; background-repeat: no-repeat;">
+                                        <div class="col-md-3 text-lg-start text-center" style="background-size: cover; background-repeat: no-repeat;">
+                                            <h4 class="mb-0">Reservation</h4>
                                         </div>
-                                    </div>
-                                    <div class="col-md-3" style="background-size: cover; background-repeat: no-repeat;">
-                                        <div class="text-center " style="background-size: cover; background-repeat: no-repeat;">
-                                            <h6>Adult</h6>
-                                            <div class="de-number" style="background-size: cover; background-repeat: no-repeat;">
-                                                <span class="d-minus">-</span>
-                                                <input type="text" class="no-border no-bg" value="1">
-                                                <span class="d-plus">+</span>
+
+                                        <div class="col-md-3" style="background-size: cover; background-repeat: no-repeat;">
+                                            <div class="text-center " style="background-size: cover; background-repeat: no-repeat;">
+                                                <h6 class="mb-1">Choose Date</h6>
+                                                <input type="text" id="date-picker" class="form-control no-border no-bg bg-focus-color text-white fs-20 text-right text-center" name="date" value="">
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-3" style="background-size: cover; background-repeat: no-repeat;">
-                                        <div class="text-center " style="background-size: cover; background-repeat: no-repeat;">
-                                            <h6>Children</h6>
-                                            <div class="de-number" style="background-size: cover; background-repeat: no-repeat;">
-                                                <span class="d-minus">-</span>
-                                                <input type="text" class="no-border no-bg" value="0">
-                                                <span class="d-plus">+</span>
+                                        <div class="col-md-3" style="background-size: cover; background-repeat: no-repeat;">
+                                            <div class="text-center " style="background-size: cover; background-repeat: no-repeat;">
+                                                <h6>Adult</h6>
+                                                <div class="de-number" style="background-size: cover; background-repeat: no-repeat;">
+                                                    <span class="d-minus">-</span>
+                                                    <input type="text" class="no-border no-bg" value="1">
+                                                    <span class="d-plus">+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3" style="background-size: cover; background-repeat: no-repeat;">
+                                            <div class="text-center " style="background-size: cover; background-repeat: no-repeat;">
+                                                <h6>Children</h6>
+                                                <div class="de-number" style="background-size: cover; background-repeat: no-repeat;">
+                                                    <span class="d-minus">-</span>
+                                                    <input type="text" class="no-border no-bg" value="0">
+                                                    <span class="d-plus">+</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-lg-3 text-lg-end text-center" style="background-size: cover; background-repeat: no-repeat;">
+                                    <button type="submit" class="btn-main">Book Now</button>
+                                </div>
                             </div>
-                            <div class="col-lg-3 text-lg-end text-center" style="background-size: cover; background-repeat: no-repeat;">
-                                <a class="btn-main btn-line" href="rooms.html">Check Availability</a>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>

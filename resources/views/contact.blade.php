@@ -32,15 +32,16 @@
                         <h3 class="mb-4">Write a Message</h3>
                     </div>
 
-                    <form name="contactForm" id="contact_form" class="position-relative z1000" method="post" action="#">
+                    <form name="contactForm" id="contact_form" class="position-relative z1000" method="post" action="{{route('contact.send')}}">
+                        @csrf
                         <div class="row gx-4">
                             <div class="col-lg-6 col-md-6 mb10">
                                 <div class="field-set">
-                                    <input type="text" name="Name" id="name" class="form-control" placeholder="Your Name" required>
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
                                 </div>
 
                                 <div class="field-set">
-                                    <input type="text" name="Email" id="email" class="form-control" placeholder="Your Email" required>
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
                                 </div>
 
                                 <div class="field-set">
@@ -57,19 +58,31 @@
 
 
                         <div class="text-center">
-                            <div class="g-recaptcha d-inline-block " data-sitekey="copy-your-sitekey-here"></div>
+                            <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+
+                            @error('g-recaptcha-response')
+                            <span class="text-danger">{{ $message }}</span>
+                            @enderror
 
                             <div id='submit' class="mt20 text-cen">
                                 <input type='submit' id='send_message' value='Send Message' class="btn-main">
                             </div>
                         </div>
-
-                        <div id="success_message" class='success'>
-                            Your message has been sent successfully. Refresh this page if you want to send more messages.
+                        @if (session('success'))
+                        <div class="alert alert-success">
+                            Your message has been sent successfully. We will contact you very soon!
                         </div>
-                        <div id="error_message" class='error'>
+                        @endif
+                        @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
                             Sorry there was an error sending your form.
                         </div>
+                        @endif
                     </form>
 
                 </div>
@@ -81,9 +94,17 @@
 </div>
 <!-- content close -->
 @endsection
-<script src='https://www.google.com/recaptcha/api.js' async defer></script>
-<script src="almaris/js/contact.js"></script>
-<script src="almaris/js/recaptcha.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render={{ env('GOOGLE_RECAPTCHA_SITE_KEY') }}"></script>
+<script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute("{{ env('GOOGLE_RECAPTCHA_SITE_KEY') }}", {
+                action: 'submit'
+            })
+            .then(function(token) {
+                document.getElementById('g-recaptcha-response').value = token;
+            });
+    });
+</script>
 <script>
     window.addEventListener('load', function() {
 

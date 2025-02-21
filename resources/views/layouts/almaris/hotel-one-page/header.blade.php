@@ -51,7 +51,7 @@
                     </div>
                     <div class="de-flex-col">
                         <div class="menu_side_area">
-                            <a href="{{route('hotel.index',$hotel['id'])}}" class="btn-main btn-line">Reservation</a>
+                            <a href="{{route('reservation.create')}}" class="btn-main btn-line">Reservation</a>
                             <span id="menu-btn"></span>
                         </div>
                     </div>

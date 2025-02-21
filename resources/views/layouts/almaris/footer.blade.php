@@ -14,7 +14,7 @@
                 <div class="row g-0">
                     <div class="col-3">
                         <a href="https://instagram.com/esportahotels/" class="d-block hover relative overflow-hidden text-light">
-                            <img src="almaris/images-beach-resort/instagram/esporta-instagram-1.jpg" class="w-100 hover-scale-1-1" alt="">
+                            <img src="{{url('almaris/images-beach-resort/instagram/esporta-instagram-1.jpg')}}" class="w-100 hover-scale-1-1" alt="">
                             <div class="abs abs-centered fs-24 text-white hover-op-0">
                                 <i class="fa-brands fa-instagram"></i>
                             </div>
@@ -22,7 +22,7 @@
                     </div>
                     <div class="col-3">
                         <a href="https://instagram.com/esportahotels/" class="d-block hover relative overflow-hidden text-light">
-                            <img src="almaris/images/gallery-square/one.jpg" class="w-100 hover-scale-1-1" alt="">
+                            <img src="{{url('almaris/images/gallery-square/one.jpg')}}" class="w-100 hover-scale-1-1" alt="">
                             <div class="abs abs-centered fs-24 text-white hover-op-0">
                                 <i class="fa-brands fa-instagram"></i>
                             </div>
@@ -30,7 +30,7 @@
                     </div>
                     <div class="col-3">
                         <a href="https://instagram.com/esportahotels/" class="d-block hover relative overflow-hidden text-light">
-                            <img src="almaris/images/gallery-square/two.jpg" class="w-100 hover-scale-1-1" alt="">
+                            <img src="{{url('almaris/images/gallery-square/two.jpg')}}" class="w-100 hover-scale-1-1" alt="">
                             <div class="abs abs-centered fs-24 text-white hover-op-0">
                                 <i class="fa-brands fa-instagram"></i>
                             </div>
@@ -38,7 +38,7 @@
                     </div>
                     <div class="col-3">
                         <a href="https://instagram.com/esportahotels/" class="d-block hover relative overflow-hidden text-light">
-                            <img src="almaris/images-beach-resort/instagram/esporta-instagram-2.jpg" class="w-100 hover-scale-1-1" alt="">
+                            <img src="{{url('almaris/images-beach-resort/instagram/esporta-instagram-2.jpg')}}" class="w-100 hover-scale-1-1" alt="">
                             <div class="abs abs-centered fs-24 text-white hover-op-0">
                                 <i class="fa-brands fa-instagram"></i>
                             </div>
@@ -50,7 +50,7 @@
                 <div class="row g-0">
                     <div class="col-3">
                         <a href="https://instagram.com/esportahotels/" class="d-block hover relative overflow-hidden text-light">
-                            <img src="almaris/images-beach-resort/instagram/esporta-instagram-3.jpg" class="w-100 hover-scale-1-1" alt="">
+                            <img src="{{url('almaris/images-beach-resort/instagram/esporta-instagram-3.jpg')}}" class="w-100 hover-scale-1-1" alt="">
                             <div class="abs abs-centered fs-24 text-white hover-op-0">
                                 <i class="fa-brands fa-instagram"></i>
                             </div>
@@ -58,7 +58,7 @@
                     </div>
                     <div class="col-3">
                         <a href="https://instagram.com/esportahotels/" class="d-block hover relative overflow-hidden text-light">
-                            <img src="almaris/images-beach-resort/instagram/esporta-instagram-4.jpg" class="w-100 hover-scale-1-1" alt="">
+                            <img src="{{url('almaris/images-beach-resort/instagram/esporta-instagram-4.jpg')}}" class="w-100 hover-scale-1-1" alt="">
                             <div class="abs abs-centered fs-24 text-white hover-op-0">
                                 <i class="fa-brands fa-instagram"></i>
                             </div>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="col-3">
                         <a href="https://instagram.com/esportahotels/" class="d-block hover relative overflow-hidden text-light">
-                            <img src="almaris/images-beach-resort/instagram/esporta-instagram-5.jpg" class="w-100 hover-scale-1-1" alt="">
+                            <img src="{{url('almaris/images-beach-resort/instagram/esporta-instagram-5.jpg')}}" class="w-100 hover-scale-1-1" alt="">
                             <div class="abs abs-centered fs-24 text-white hover-op-0">
                                 <i class="fa-brands fa-instagram"></i>
                             </div>
@@ -74,7 +74,7 @@
                     </div>
                     <div class="col-3">
                         <a href="https://instagram.com/esportahotels/" class="d-block hover relative overflow-hidden text-light">
-                            <img src="almaris/images/gallery-square/one.jpg" class="w-100 hover-scale-1-1" alt="">
+                            <img src="{{url('almaris/images/gallery-square/one.jpg')}}" class="w-100 hover-scale-1-1" alt="">
                             <div class="abs abs-centered fs-24 text-white hover-op-0">
                                 <i class="fa-brands fa-instagram"></i>
                             </div>
@@ -99,7 +99,7 @@
                         Nigeria
                     </div>
                     <div>
-                        <a href="{{route('home')}}"><img src="almaris/images/logo.png" class="w-200px" alt=""></a><br>
+                        <a href="{{route('home')}}"><img src="{{url('almaris/images/logo.png')}}" class="w-200px" alt=""></a><br>
                         <div class="social-icons mb-sm-30 mt-4">
                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                             <a href="https://instagram.com/esportahotels/"><i class="fa-brands fa-instagram"></i></a>

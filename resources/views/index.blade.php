@@ -61,7 +61,7 @@
                     <div class="spacer-single"></div>
 
                     <div class="bg-blur padding40 py-4">
-                        <form id="reservationForm" method="get" action="https://appv2.venushotelsoftware.com/booking-engine/available-categories">
+                        <form id="reservationForm" method="get" action="{{route('reservation.create')}}">
                             <div class="row g-4 align-items-center">
                                 <div class="col-lg-9">
                                     <div class="row g-4 align-items-center">
@@ -73,7 +73,7 @@
                                             <div class="text-center ">
                                                 <h6 class="id-color">Destination</h6>
                                                 <select name="location">
-                                                    <option value="">--Select Destination--</option>
+                                                    <option value="Esporta">--Select Destination--</option>
                                                     <option value="ikeja">Ikeja GRA, Lagos</option>
                                                     <option value="magodo">Magodo, Lagos</option>
                                                     <option value="agindingbi">Agindigbi, Lagos</option>
@@ -102,8 +102,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-3 text-lg-end text-center">
-                                    <input type="hidden" name="hotel_id" value="{{hotelId()}}">
-                                    <button type="submit" class="btn-main">Check Availability</button>
+                                    <button type="submit" class="btn-main">Book Now</button>
                                 </div>
                             </div>
                         </form>
