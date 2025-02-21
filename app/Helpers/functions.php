@@ -18,7 +18,7 @@ function getHotelPropertyInfomation($_hotel)
         'address' => $_hotel . ', Lagos, Nigeria',
         'phone' => '+234 706 612 2407',
         'whatsapp' => '+2347066122407',
-        'email' => $_hotel . '@esportahotels.com'
+        'email' => 'info@esportahotels.com'
     ];
     switch ($_hotel) {
         case 'ikeja':
@@ -28,7 +28,7 @@ function getHotelPropertyInfomation($_hotel)
                 'address' => '15 Fajuyi Ikeja, Lagos, Nigeria',
                 'phone' => '+234 704 003 0519',
                 'whatsapp' => '+234 704 003 0519',
-                'email' => $_hotel . '@esportahotels.com',
+                'email' => 'info@esportahotels.com',
                 'reviews' => [
                     [
                         'customer_name' => 'James Ikegwuru',
@@ -48,7 +48,7 @@ function getHotelPropertyInfomation($_hotel)
                 'address' => '8B C M D Rd, Magodo GRA Extension, Lagos, Nigeria',
                 'phone' => '+234 704 003 0511',
                 'whatsapp' => '+234 704 003 0511',
-                'email' => $_hotel . '@esportahotels.com'
+                'email' => 'info@esportahotels.com'
             ];
             break;
         case 'agidingbi':
@@ -58,7 +58,7 @@ function getHotelPropertyInfomation($_hotel)
                 'address' => 'Off Lateef Jakande Rd, beside FIRS, By Anchor Event Center, Agidingbi, Lagos, Nigeria',
                 'phone' => '+234 704 003 0517',
                 'whatsapp' => '+234 704 003 0517',
-                'email' => $_hotel . '@esportahotels.com'
+                'email' => 'info@esportahotels.com'
             ];
             break;
         case 'lekki':
@@ -68,7 +68,7 @@ function getHotelPropertyInfomation($_hotel)
                 'address' => '71 Admiral Ayinla, Freedom Way, Ikate, Lekki, Lagos, Nigeria',
                 'phone' => '+234 704 003 0520',
                 'whatsapp' => '+234 704 003 0520',
-                'email' => $_hotel . '@esportahotels.com'
+                'email' => 'info@esportahotels.com'
             ];
             break;
         case 'ondo':
@@ -78,7 +78,7 @@ function getHotelPropertyInfomation($_hotel)
                 'address' => '32 Ondo- Ife Rd Beside Magodo Brooks Estate, Ondo, Nigeria',
                 'phone' => '+234 704 003 0521',
                 'whatsapp' => '+234 704 003 0521',
-                'email' => $_hotel . '@esportahotels.com'
+                'email' => 'info@esportahotels.com'
             ];
             break;
 

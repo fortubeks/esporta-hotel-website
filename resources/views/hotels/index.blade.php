@@ -12,7 +12,7 @@
                 <div class="swiper-wrapper">
                     <!-- Slides -->
                     <div class="swiper-slide">
-                        <div class="swiper-inner" data-bgimage="url({{env('APP_URL').'/almaris/images/home/'.$hotel['id'].'/slider-1.jpg'}})">
+                        <div class="swiper-inner" data-bgimage="url({{env('APP_URL').'/almaris/images/home/'.$hotel['id'].'/slider-1.JPG'}})">
                             <div class="sw-caption z-1000">
                                 <div class="container">
                                     <div class="row g-4 align-items-center">
@@ -54,7 +54,7 @@
 
                     <!-- Slides -->
                     <div class="swiper-slide">
-                        <div class="swiper-inner" data-bgimage="url({{env('APP_URL').'/almaris/images/home/'.$hotel['id'].'/slider-2.jpg'}})">
+                        <div class="swiper-inner" data-bgimage="url({{env('APP_URL').'/almaris/images/home/'.$hotel['id'].'/slider-2.JPG'}})">
                             <div class="sw-caption z-1000">
                                 <div class="container">
                                     <div class="row g-4 align-items-center">
@@ -167,7 +167,7 @@
                     <div class="relative wow fadeInUp" data-wow-delay=".3s">
                         <div class="abs top-0 w-100">
                             <div class="shape-mask-1 jarallax">
-                                <img src="{{env('APP_URL').'/almaris/images/home/'.$hotel['id'].'/home1.jpg'}}" class="jarallax-img" alt="">
+                                <img src="{{env('APP_URL').'/almaris/images/home/'.$hotel['id'].'/home1.JPG'}}" class="jarallax-img" alt="">
                             </div>
                         </div>
                     </div>
@@ -198,7 +198,7 @@
                     <div class="relative wow fadeInUp" data-wow-delay=".3s">
                         <div class="abs top-0 w-100">
                             <div class="shape-mask-1 jarallax">
-                                <img src="{{env('APP_URL').'/almaris/images/home/'.$hotel['id'].'/home2.jpg'}}" class="jarallax-img" alt="">
+                                <img src="{{env('APP_URL').'/almaris/images/home/'.$hotel['id'].'/home2.JPG'}}" class="jarallax-img" alt="">
                             </div>
                         </div>
                     </div>
@@ -290,7 +290,7 @@
         <div class="abs abs-centered w-30">
             <div class="box-slider-decor"></div>
         </div>
-        <img src="{{env('APP_URL').'/almaris/images/home/'.$hotel['id'].'/slider-1.jpg'}}" class="jarallax-img" alt="">
+        <img src="{{env('APP_URL').'/almaris/images/home/'.$hotel['id'].'/slider-1.JPG'}}" class="jarallax-img" alt="">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 text-center">
@@ -325,7 +325,7 @@
 
                         <div id="facilities-carousel" class="owl-3-cols owl-carousel owl-theme">
                             <div class="item">
-                                <img src="{{env('APP_URL')}}/almaris/images/gallery/food-7.jpg" class="w-100 rounded-up-100" alt="">
+                                <img src="{{env('APP_URL')}}/almaris/images/gallery/food-7.JPG" class="w-100 rounded-up-100" alt="">
 
                                 <div class="mt-3 text-center">
                                     <h4>Restaurant and Dining</h4>
@@ -333,7 +333,7 @@
                             </div>
 
                             <div class="item">
-                                <img src="{{env('APP_URL')}}/almaris/images/home/ikeja/home-swimming.jpg" class="w-100 rounded-up-100" alt="">
+                                <img src="{{env('APP_URL')}}/almaris/images/home/ikeja/home-swimming.JPG" class="w-100 rounded-up-100" alt="">
 
                                 <div class="mt-3 text-center">
                                     <h4>Swimming Pool</h4>
@@ -341,7 +341,7 @@
                             </div>
 
                             <div class="item">
-                                <img src="{{env('APP_URL')}}/almaris/images/gallery/outdoor2.jpg" class="w-100 rounded-up-100" alt="">
+                                <img src="{{env('APP_URL')}}/almaris/images/gallery/outdoor2.JPG" class="w-100 rounded-up-100" alt="">
 
                                 <div class="mt-3 text-center">
                                     <h4>Relaxation</h4>
@@ -389,7 +389,7 @@
                     <div class="player wow scaleIn"><span></span></div>
                 </div>
                 <div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
-                <img src="{{env('APP_URL')}}/almaris/images-beach-resort/background/two.jpg" class="img-fluid" alt="">
+                <img src="{{env('APP_URL')}}/almaris/images-beach-resort/background/two.JPG" class="img-fluid" alt="">
             </div>
         </a>
     </section>
