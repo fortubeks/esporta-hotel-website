@@ -9,7 +9,7 @@
                             <div class="topbar-widget"><a href="#"><i class="icofont-location-pin"></i>{{$hotel['address']}}</a></div>
                             <div class="topbar-widget"><a href="#"><i class="icofont-phone"></i>{{$hotel['phone']}}</a></div>
                             <div class="topbar-widget"><a href="#"><i class="icofont-whatsapp"></i>{{$hotel['phone']}}</a></div>
-                            <div class="topbar-widget"><a href="#"><i class="icofont-envelope"></i>c{{$hotel['email']}}</a></div>
+                            <div class="topbar-widget"><a href="#"><i class="icofont-envelope"></i>{{$hotel['email']}}</a></div>
                         </div>
 
                         <div class="social-icons">
