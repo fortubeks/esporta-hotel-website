@@ -7,7 +7,7 @@
     <div id="top"></div>
 
     <section id="subheader" class="relative jarallax text-light">
-        <img src="{{env('APP_URL')}}/almaris/images/background/reception.JPG" class="jarallax-img" alt="">
+        <img src="{{env('APP_URL')}}/almaris/images/background/reception.jpg" class="jarallax-img" alt="">
         <div class="container relative z-index-1000">
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-center">

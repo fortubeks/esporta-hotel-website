@@ -7,7 +7,7 @@
   <div id="top"></div>
 
   <section id="subheader" class="relative jarallax text-light">
-    <img src="{{env('APP_URL')}}/almaris/images/background/room.JPG" class="jarallax-img" alt="">
+    <img src="{{env('APP_URL')}}/almaris/images/background/room.jpg" class="jarallax-img" alt="">
     <div class="container relative z-index-1000">
       <div class="row justify-content-center">
         <div class="col-lg-6 text-center">
@@ -30,7 +30,7 @@
           <!-- Image -->
           <div class="col-lg-6 position-lg-absolute {{ ($loop->index % 2 == 0) ? 'right-half' : 'left-half' }} h-100">
 
-            <div class="image" data-bgimage="url({{env('APP_URL').'/almaris/images/room/room'.$loop->index.'.JPG'}}) center"></div>
+            <div class="image" data-bgimage="url({{env('APP_URL').'/almaris/images/room/room'.$loop->index.'.jpg'}}) center"></div>
           </div>
           <!-- Text -->
           <div class="col-lg-6 {{ ($loop->index % 2 == 0) ? 'py-5 pe-lg-5' : 'offset-lg-6 py-5 ps-lg-5' }}">
