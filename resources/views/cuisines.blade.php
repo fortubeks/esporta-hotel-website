@@ -7,7 +7,7 @@
     <div id="top"></div>
 
     <section id="subheader" class="relative jarallax text-light">
-        <img src="almaris/images/background/cuisines.jpg" class="jarallax-img" alt="">
+        <img src="almaris/images/background/cuisines-edited.jpg" class="jarallax-img" alt="">
         <div class="container relative z-index-1000">
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center">
